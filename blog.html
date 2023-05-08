@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Detail</title>
+    <script src="blogscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="navbar"> 
+            <h1 id="navbar">-> BLOG <-</h1>
+        </div>
+        <script>
+            function navigateToIndex() {
+            window.location.href = 'index.html';
+            }
+            const navTitle = document.getElementById('navbar');
+            navTitle.addEventListener('click', navigateToIndex);
+        </script>
+    </center>
+    <div id="blog-content">
+    </div>
+</body>
+</html>
